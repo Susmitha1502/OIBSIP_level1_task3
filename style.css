@@ -1,0 +1,75 @@
+*{
+    font-family: cursive;
+    color: black;
+}
+body{
+    background-image: url("tc.jpeg");
+    background-repeat: no-repeat;
+}
+body h3{
+    font-size: 3rem;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: -1.5rem;
+    width: 40rem;
+    height: 30rem;
+    background-color: azure;
+    border: .5rem solid black;
+    border-radius: 2rem;
+    background-image: url("db.jpeg");
+}
+.container form{
+    margin-top: 3rem;
+    border: .1rem solid black;
+    border-radius: 1.5rem;
+    padding-left: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+.container label{
+    cursor: default;
+}
+.container table{
+    margin-left: -1.5rem;
+    text-indent: 1rem;
+    text-align: center;
+    justify-items: center;
+}
+.container table .in{
+    border: .1rem solid black;
+    color: 2rem solid black;
+    font-weight: 800;
+}
+.container table .deg{
+    text-indent: -.1rem;
+}
+.container .end{
+    margin-left: -1.5rem;
+}
+.container .end table{
+    text-align: center;
+    justify-items: center;
+}
+.container .end .btn{
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    background-color: aqua;
+    margin-bottom: .5rem;
+}
+.container .end .btn:hover{
+    background-color: rgb(41, 170, 245);
+}
+.btn{
+    font-size: 1rem;
+    border: .15rem solid black;
+    border-radius: .5rem;
+}
+.btn:hover{
+    background-color: rgb(134, 193, 248);
+}
